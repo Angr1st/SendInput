@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SendInputCore", "SendInputCore\SendInputCore.fsproj", "{8CC36D3F-C498-4C41-8C65-253E382E59CF}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SendInputCore", "SendInputCore\SendInputCore.fsproj", "{8CC36D3F-C498-4C41-8C65-253E382E59CF}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SendInputFramework", "SendInputFramework\SendInputFramework.fsproj", "{014C825C-1FCC-472C-A05E-FCC9E7263A1E}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SendInputLib", "SendInputLib\SendInputLib.fsproj", "{983903FE-215D-4D2C-AFD4-9284E2456CC5}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SendInputLib", "SendInputLib\SendInputLib.fsproj", "{983903FE-215D-4D2C-AFD4-9284E2456CC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendInput.CSharp", "SendInput.CSharp\SendInput.CSharp.csproj", "{2853E425-3CBB-446F-9F61-212F12254CB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,18 @@ Global
 		{983903FE-215D-4D2C-AFD4-9284E2456CC5}.Release|x64.Build.0 = Release|Any CPU
 		{983903FE-215D-4D2C-AFD4-9284E2456CC5}.Release|x86.ActiveCfg = Release|Any CPU
 		{983903FE-215D-4D2C-AFD4-9284E2456CC5}.Release|x86.Build.0 = Release|Any CPU
+		{2853E425-3CBB-446F-9F61-212F12254CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2853E425-3CBB-446F-9F61-212F12254CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2853E425-3CBB-446F-9F61-212F12254CB9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2853E425-3CBB-446F-9F61-212F12254CB9}.Debug|x64.Build.0 = Debug|Any CPU
+		{2853E425-3CBB-446F-9F61-212F12254CB9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2853E425-3CBB-446F-9F61-212F12254CB9}.Debug|x86.Build.0 = Debug|Any CPU
+		{2853E425-3CBB-446F-9F61-212F12254CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2853E425-3CBB-446F-9F61-212F12254CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2853E425-3CBB-446F-9F61-212F12254CB9}.Release|x64.ActiveCfg = Release|Any CPU
+		{2853E425-3CBB-446F-9F61-212F12254CB9}.Release|x64.Build.0 = Release|Any CPU
+		{2853E425-3CBB-446F-9F61-212F12254CB9}.Release|x86.ActiveCfg = Release|Any CPU
+		{2853E425-3CBB-446F-9F61-212F12254CB9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
