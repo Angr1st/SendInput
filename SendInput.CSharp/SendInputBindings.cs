@@ -1,7 +1,6 @@
-﻿using System;
-using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 
-namespace SendInput.CSharp
+namespace SendInputLib.CSharp
 {
     public static class SendInputBindings
     {
