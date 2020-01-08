@@ -11,6 +11,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SendInputLib", "SendInputLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendInputLib.CSharp", "SendInput.CSharp\SendInputLib.CSharp.csproj", "{2853E425-3CBB-446F-9F61-212F12254CB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendInputCore.CSharp", "SendInputCore.CSharp\SendInputCore.CSharp.csproj", "{1DB24E52-2F24-4256-81EC-371859DD9BC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{2853E425-3CBB-446F-9F61-212F12254CB9}.Release|x64.Build.0 = Release|Any CPU
 		{2853E425-3CBB-446F-9F61-212F12254CB9}.Release|x86.ActiveCfg = Release|Any CPU
 		{2853E425-3CBB-446F-9F61-212F12254CB9}.Release|x86.Build.0 = Release|Any CPU
+		{1DB24E52-2F24-4256-81EC-371859DD9BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB24E52-2F24-4256-81EC-371859DD9BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB24E52-2F24-4256-81EC-371859DD9BC7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1DB24E52-2F24-4256-81EC-371859DD9BC7}.Debug|x64.Build.0 = Debug|Any CPU
+		{1DB24E52-2F24-4256-81EC-371859DD9BC7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1DB24E52-2F24-4256-81EC-371859DD9BC7}.Debug|x86.Build.0 = Debug|Any CPU
+		{1DB24E52-2F24-4256-81EC-371859DD9BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB24E52-2F24-4256-81EC-371859DD9BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB24E52-2F24-4256-81EC-371859DD9BC7}.Release|x64.ActiveCfg = Release|Any CPU
+		{1DB24E52-2F24-4256-81EC-371859DD9BC7}.Release|x64.Build.0 = Release|Any CPU
+		{1DB24E52-2F24-4256-81EC-371859DD9BC7}.Release|x86.ActiveCfg = Release|Any CPU
+		{1DB24E52-2F24-4256-81EC-371859DD9BC7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
