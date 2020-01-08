@@ -7,6 +7,6 @@ open System
 [<EntryPoint>]
 let main argv =
     pressKey(KeyCodes.KEY_A)
-    printfn "%A" argv
+
     Console.ReadLine() |> ignore
     0 // return an integer exit code
