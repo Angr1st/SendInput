@@ -2,10 +2,14 @@
 
 open System
 open SendInputLib.SendInputBindings
+open System.Runtime.InteropServices
+open System.ComponentModel
 
 [<EntryPoint>]
 let main argv =
     pressKey(KeyCodes.KEY_A)
-    printfn "Hello World from F#!"
+    let error = Win32Exception(Marshal.GetLastWin32Error())
+    let errorMsg = error.Message
+    printfn "%s; Error Code: %i" errorMsg error.NativeErrorCode
 
     0 // return an integer exit code
