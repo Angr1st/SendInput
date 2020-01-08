@@ -75,14 +75,14 @@ namespace SendInputLib.CSharp
             public HARDWAREINPUT hi;
         }
 
-        private static class InputModes
+        public static class InputModes
         {
             public const int INPUT_MOUSE = 0;
             public const int INPUT_KEYBOARD = 1;
             public const int INPUT_HARDWARE = 2;
         }
 
-        private static class Dwords
+        public static class Dwords
         {
             public const uint KEYEVENTF_KEYDOWN = 0x0000;
             public const uint KEYEVENTF_EXTENDEDKEY = 0x0001;
@@ -91,7 +91,7 @@ namespace SendInputLib.CSharp
             public const uint KEYEVENTF_SCANCODE = 0x0008;
         }
 
-        private static class KeyCodes
+        public static class KeyCodes
         {
             public const int VK_CONTROL = 162;
             public const int VK_TAB = 9;
