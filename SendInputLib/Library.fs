@@ -1,5 +1,6 @@
 ﻿namespace SendInputLib
-
+//This Code is originally from https://github.com/naddeoa/strokes
+//All rights belong to naddeoa
 module SendInputBindings =
 
     open System.Runtime.InteropServices
